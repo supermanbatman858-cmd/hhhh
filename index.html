@@ -563,7 +563,12 @@ const DAYS=[
     mental:"Tu soulèves une couronne au-dessus de ta tête avec un mouvement de 'couronnement'. Tes coudes restent collés aux oreilles tout le temps.",
     errors:["Coudes qui s'écartent : perd l'isolation du chef long","Mouvement des épaules : compense, les coudes montent"]},
    progressions:{s1_2:{sets:2,reps:"12",rir:4,note:"Coudes AU PLAFOND."},s3_4:{sets:3,reps:"12",rir:3,note:"+2.5 kg."},s5_6:{sets:3,reps:"12",rir:2,note:"SUPERSET avec pushdown."},s7_8:{sets:3,reps:"10",rir:2,note:"Superset."},s9_10:{sets:3,reps:"10",rir:1,note:"Intensif."},s11:{sets:2,reps:"12",rir:5,note:"DELOAD."},s12:{sets:2,reps:"12",rir:2,note:"Normal."}},
-   tips:[{cat:"Chef long",text:"Seul exercice qui place le chef long en étirement MAXIMAL."}]}
+      tips:[{cat:"Chef long",text:"Seul exercice qui place le chef long en étirement MAXIMAL."}]},
+{id:"pushup",name:"Pompes lestées",tags:["prio","tempo"],gear:"Gilet lesté ou haltère",
+ muscles:{direct:["Grand pectoral sternal","Grand pectoral abdominal"],indirect:["Deltoïde antérieur","Triceps long","Core"]},
+ execution:{steps:["Mains légèrement plus larges que les épaules. Corps gainé : fessiers serrés, abdos contractés.","Descente 4s : coudes à 45° du torse. Poitrine touche le sol.","Pause 1s en bas. Étirement pectoral maximal.","Poussée explosive : imaginer écarter les mains sans les bouger.","Lockout complet en haut. Ne pas cambrer."],mental:"Ton corps est une planche. Tu repousses le sol, pas que tu pousses avec les bras.",errors:["Hanches qui montent : gainage lâche","Coudes à 90° : stress épaule","Amplitude partielle : bénéfice excentrique perdu"]},
+ progressions:{s1_2:{sets:3,reps:"max",rir:4,note:"Gainage parfait. Tempo 4s."},s3_4:{sets:3,reps:"max",rir:3,note:"+2.5 kg lest."},s5_6:{sets:4,reps:"max",rir:2,note:"+5 kg. +1 série."},s7_8:{sets:4,reps:"max",rir:2,note:"+7.5 kg."},s9_10:{sets:4,reps:"max",rir:1,note:"Lest max. Drop-set S10."},s11:{sets:2,reps:"15",rir:5,note:"DELOAD poids corps."},s12:{sets:1,reps:"max",rir:0,note:"TEST PR."}},
+ tips:[{cat:"Science",text:"Activation pectorale comparable au bench si amplitude complète (van den Tillaar 2019)."},{cat:"Progression",text:"Ajouter du lest dès que tu dépasses 20 reps propres."}]}
 ]},
 {id:"mardi",name:"Mardi",type:"Pull A",color:"var(--blue)",muscles:["Dos","Biceps","Ischios"],exercises:[
   {id:"latwide",name:"Tirage vertical large pronation",tags:["prio","tempo"],gear:"Poulie haute",
@@ -600,7 +605,12 @@ const DAYS=[
     mental:"Imagine que tu veux fermer la portière d'une voiture avec tes fesses — tu pousses les hanches vers l'arrière. Ou : il y a un mur derrière toi et tes fesses le touchent.",
     errors:["Dos arrondi : hernies discales possibles — arrêt immédiat","Genoux qui plient davantage : devient du squat, pas du hip hinge"]},
    progressions:{s1_2:{sets:3,reps:"10",rir:4,note:"HIP HINGE pur. Dos plat. Excentrique 3s."},s3_4:{sets:3,reps:"10",rir:3,note:"+5 kg vs S1."},s5_6:{sets:3,reps:"10",rir:2,note:"+10 kg."},s7_8:{sets:4,reps:"8",rir:2,note:"+1 série."},s9_10:{sets:4,reps:"8",rir:1,note:"Max."},s11:{sets:2,reps:"10",rir:5,note:"DELOAD."},s12:{sets:3,reps:"10",rir:2,note:"Normal."}},
-   tips:[{cat:"Hip hinge",text:"Genoux légèrement fléchis FIXES. Les hanches reculent vers l'arrière."}]}
+    tips:[{cat:"Hip hinge",text:"Genoux légèrement fléchis FIXES. Les hanches reculent vers l'arrière."}]},
+{id:"ausrow",name:"Traction australienne",tags:["prio","tempo"],gear:"Barre fixe basse ou Smith",
+ muscles:{direct:["Grand dorsal médian","Trapèze moyen","Rhomboïdes"],indirect:["Biceps brachial","Deltoïde postérieur","Core"]},
+ execution:{steps:["Barre à hauteur de hanche. Corps rigide allongé dessous, talons au sol.","AVANT de tirer : rétracter les omoplates — pincer un crayon entre les deux.","Tirer la poitrine vers la barre. Coudes à 45° du torse.","En haut : sternum touche la barre. Squeeze dorsaux 1s.","Descente 4s contrôlée. Hanches ne bougent pas."],mental:"Tu es une planche inversée. Un moteur dans tes dorsaux te hisse. Les hanches restent immobiles.",errors:["Hanches qui s'affaissent : core inactif","Tirer avec les bras d'abord : biceps brûlent, dos ne travaille pas","Amplitude partielle : rhomboïdes jamais contractés"]},
+ progressions:{s1_2:{sets:3,reps:"10",rir:4,note:"Corps rigide. Rétraction omoplates D'ABORD."},s3_4:{sets:3,reps:"10",rir:3,note:"Pieds surélevés sur banc."},s5_6:{sets:4,reps:"10",rir:2,note:"Gilet lesté. +1 série."},s7_8:{sets:4,reps:"8",rir:2,note:"+2.5 kg lest."},s9_10:{sets:4,reps:"8",rir:1,note:"Lest max. Pause 2s en haut."},s11:{sets:2,reps:"12",rir:5,note:"DELOAD poids corps."},s12:{sets:3,reps:"10",rir:2,note:"Normal."}},
+ tips:[{cat:"Science",text:"Activation rhomboïdes supérieure au rowing barre (Youdas 2010)."},{cat:"Progression",text:"Pieds sol → pieds surélevés → lest."}]}
 ]},
 {id:"mercredi",name:"Mercredi",type:"Legs",color:"var(--grn)",muscles:["Quads","Fessiers","Ischios","Mollets"],exercises:[
   {id:"squat",name:"Squat barre olympique",tags:["force","fix"],gear:"Rack · Barre 50mm",
